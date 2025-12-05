@@ -34,42 +34,15 @@ public interface MenuOrganizerConfig extends Config
 	}
 
 	@ConfigItem(
-			keyName = "removeOrganizedItems",
-			name = "Remove Organized Items",
-			description = "When enabled, items that appear in your custom sections " +
-					"will be removed from the default menu entries",
-			section = generalSettings,
-			position = 1
-	)
-	default boolean removeOrganizedItems()
-	{
-		return true;
-	}
-
-	@ConfigItem(
 			keyName = "showSeparators",
 			name = "Show Section Separators",
-			description = "Display visual separator labels in the right-click menu " +
-					"to distinguish your custom sections",
+			description = "Display visual separator labels (e.g., '-- Food --') above each section's items",
 			section = generalSettings,
-			position = 2
+			position = 1
 	)
 	default boolean showSeparators()
 	{
 		return true;
-	}
-
-	@ConfigItem(
-			keyName = "ctrlClickPickup",
-			name = "Ctrl+Click Quick Pickup",
-			description = "When enabled, holding Ctrl and left-clicking a ground item pile " +
-					"will automatically pick up all items matching your custom sections",
-			section = generalSettings,
-			position = 3
-	)
-	default boolean ctrlClickPickup()
-	{
-		return false;
 	}
 
 	// ========================================================================
