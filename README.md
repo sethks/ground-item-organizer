@@ -4,4 +4,3 @@
 ![Full](https://github.com/user-attachments/assets/53b28632-1797-450c-b90e-b139b72e8186)
 The image above has two sections filled out for food and farming items. The menu is reorganized to have those items shown clearly to the player. You can also change the color of each section to whatever you like.
 
-The plugin also features a Ctrl+Click Quick Pickup option (Togglable) where when the combination is held, any items in any of your custom sections will be picked up first! This ignores the actual order of the items on the ground.
